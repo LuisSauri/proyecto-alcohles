@@ -1,0 +1,43 @@
+@page {
+    size: 20.4in 8.5in;
+}
+
+.header{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    margin-top: 2%;
+}
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las celdas del encabezado de la tabla */
+th {
+    background-color: #337ab7;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+}
+
+/* Estilo para las celdas de datos de la tabla */
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Estilo para las filas impares de la tabla */
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para las filas al pasar el ratón por encima */
+tr:hover {
+    background-color: #d9edf7;
+}

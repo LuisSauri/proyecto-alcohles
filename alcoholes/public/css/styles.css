@@ -1,0 +1,99 @@
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  }
+
+  .row{
+    margin-bottom: 10px;
+  }
+
+  .navbar{
+    margin-bottom: 10px;
+    background-color: slategrey;
+  }
+  
+.image_seafi{
+    margin-top: 15px;
+}
+
+.cards{
+    margin-top: 15px;
+}
+
+ /* footer {
+    min-height: 70px;
+    border-top: 1px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;             
+  }*/
+
+  footer{
+    background-color: #A51C30;
+    margin-top: auto !important;
+  }
+
+  #lougout{
+    color: white;
+    text-decoration: none;
+  }
+
+  .link:link{
+    color: white;
+    text-decoration: none;
+  }
+
+  .link:hover{
+    color: #1e9c9e;
+    text-decoration-line: underline;
+  }
+
+.nav-link:link{
+  color: white;
+}
+
+.nav-link:link:hover{
+    color: white;
+    text-decoration-line: underline;    
+  }
+
+  .navbar-brand{
+    color: white;
+  }
+
+  .navbar-brand:hover{
+    color: white;
+    text-decoration-line: underline;
+  }
+
+  .padron{
+    text-align: center;
+    text-justify: inter-word;
+    vertical-align: middle;
+    
+  }
+
+  .input-group{
+    margin-bottom: 10px;
+  }
+
+  .btn-group {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+/* Agrega un margen entre los botones si es necesario */
+.btn-group .btn {
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+.login{
+  padding-top: 15px;
+}
